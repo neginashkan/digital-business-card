@@ -1,0 +1,41 @@
+/* digital-business-card */
+*{
+  box-sizing: border-box;
+}
+body {
+  background-color:#8c8ca3;
+  font-family: 'Indie Flower', cursive;
+}
+.gif {
+  margin-top: 80px;
+  width: 400px;
+  height: 290px;
+}
+.Card {
+  width: 650px;
+  background-color: #f3f3f3;
+  display: flex;
+  justify-content: space-around;
+  margin: 150px auto ;
+  padding:0px;
+  border-bottom-right-radius:90px ;
+  border-top-left-radius: 90px;
+}
+
+
+.Card:hover{
+  box-shadow: 10px 10px 50px #c0c2ce ;
+  cursor: pointer;
+}
+.text-part{
+  color: #656478;
+  margin: 55px;
+  margin-left: 0;
+  text-align: center;
+  font-size: 15px;
+}
+
+.hover-color:hover{
+  text-shadow: 2px 1px 5px #fbccc2;
+
+}
